@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+﻿import React from "react";
+import OrderPage from "./pages/OrderPage";
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <div>
+            {/* Navbar */}
+            <nav style={styles.navbar}>
+                <div style={styles.navBrand}>🍽️ My Restaurant</div>
+            </nav>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+            {/* Page Heading */}
+            <h1 style={styles.heading}>🍔 Restaurant Order App</h1>
+
+            {/* Main Order Page */}
+            <OrderPage />
+        </div>
+    );
 }
 
-export default App
+const styles = {
+    navbar: {
+        backgroundColor: "skyblue",
+        padding: "15px 20px", // Increased padding
+        display: "flex",
+        alignItems: "center",
+        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+    },
+    navBrand: {
+        fontSize: "20px", // Increased font size
+        fontWeight: "bold",
+        color: "#fff",
+    },
+    heading: {
+        textAlign: "center",
+        margin: "20px 0",
+        fontSize: "30px", // Increased title size
+        color: "#333",
+    },
+};
+
+export default App;
