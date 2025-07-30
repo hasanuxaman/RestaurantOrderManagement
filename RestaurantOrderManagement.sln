@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Api", "OrderService.Api\OrderService.Api.csproj", "{B48248EC-52DB-488C-AE98-B3A48E645E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuService.Api", "MenuService.Api\MenuService.Api.csproj", "{3A3C50DE-6988-4990-8442-2BE42ACFBA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.Api", "CustomerService.Api\CustomerService.Api.csproj", "{49CFF683-AD5E-4FE6-A97A-E7EC9B7A53AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingService.Api", "BillingService.Api\BillingService.Api.csproj", "{197E5EBD-4D77-4EF3-BB3C-3B2D063A94E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{ED230AFE-5F18-4C12-A077-23B7AD7D0E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Shared", "Restaurant.Shared\Restaurant.Shared.csproj", "{D2EF02E3-6979-464E-A761-FE61CE617CA9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "restaurantordermanagement.client", "RestaurantOrderManagement.Client\restaurantordermanagement.client.esproj", "{9F0B137A-D199-4A71-9DF1-20F0232EC05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48248EC-52DB-488C-AE98-B3A48E645E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48248EC-52DB-488C-AE98-B3A48E645E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48248EC-52DB-488C-AE98-B3A48E645E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48248EC-52DB-488C-AE98-B3A48E645E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3C50DE-6988-4990-8442-2BE42ACFBA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3C50DE-6988-4990-8442-2BE42ACFBA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3C50DE-6988-4990-8442-2BE42ACFBA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3C50DE-6988-4990-8442-2BE42ACFBA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CFF683-AD5E-4FE6-A97A-E7EC9B7A53AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CFF683-AD5E-4FE6-A97A-E7EC9B7A53AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CFF683-AD5E-4FE6-A97A-E7EC9B7A53AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CFF683-AD5E-4FE6-A97A-E7EC9B7A53AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197E5EBD-4D77-4EF3-BB3C-3B2D063A94E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197E5EBD-4D77-4EF3-BB3C-3B2D063A94E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197E5EBD-4D77-4EF3-BB3C-3B2D063A94E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197E5EBD-4D77-4EF3-BB3C-3B2D063A94E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED230AFE-5F18-4C12-A077-23B7AD7D0E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED230AFE-5F18-4C12-A077-23B7AD7D0E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED230AFE-5F18-4C12-A077-23B7AD7D0E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED230AFE-5F18-4C12-A077-23B7AD7D0E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EF02E3-6979-464E-A761-FE61CE617CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EF02E3-6979-464E-A761-FE61CE617CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EF02E3-6979-464E-A761-FE61CE617CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EF02E3-6979-464E-A761-FE61CE617CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0B137A-D199-4A71-9DF1-20F0232EC05F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5035850-B5E3-4E4E-A10D-70DBFF4B2D96}
+	EndGlobalSection
+EndGlobal
