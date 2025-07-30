@@ -3,6 +3,8 @@
 A full-stack **Microservices-Based Restaurant Order Management** system with backend in `.NET Core Web API`, database using **SQL Server**, **EF Core + Dapper** for data access, and a modern **React.js** frontend.
 
 ---
+## 🖼️ Screenshot
+![App Screenshot](./capture.PNG)
 
 ## 🧩 Technologies Used
 
