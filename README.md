@@ -150,7 +150,8 @@ MIT License
 
 ## 🙋‍♂️ Author
 Md Hasanuzzaman Rony
-📧 hasanuzzamanrony@example.com
-🌐 GitHub
+
+📧 hasanuxaman.rony@gmail.com
+🌐 GitHub https://github.com/hasanuxaman
 🌍 Bangladesh
 
